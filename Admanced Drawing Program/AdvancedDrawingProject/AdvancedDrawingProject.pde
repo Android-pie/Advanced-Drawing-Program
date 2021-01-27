@@ -52,6 +52,9 @@ float ampvol;
 float VolUpX, VolUpY, VolUpWidth, VolupHeight;
 float VolDownX, VolDownY, VolDownWidth, VolDownHeight;
 float muteX, muteY, muteWidth, muteHeight;
+float StrokeLablesX, StrokeLablesY, StrokeLablesWidth, StrokeLablesHeight;
+float PenLablesX, PenLablesY, PenLablesWidth, PenLablesHeight;
+float SavebuttonX, SavebuttonY, SavebuttonWidth, SavebuttonHeight;
 Boolean pen = false;
 Boolean circle = false;
 Boolean eraser = false;
@@ -97,6 +100,7 @@ void draw() {
 
 void keyPressed() {
   vol();
+  Save();
 }
 void mousePressed() {
   PenColours();
@@ -110,5 +114,7 @@ void mousePressed() {
   Quit();
   StrokeColours();
   vol();  
+  redo();
+  Save();
   println("eraser", eraser, "pen", pen, "rectangle", rectangle);
 }

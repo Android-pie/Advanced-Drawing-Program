@@ -10,12 +10,15 @@ void Lables() {
   textFont(lableFont, 20);
   text("Eraser", eraserX, eraserY, eraserbuttonWidth, eraserbuttonHeight);
   text("Reset", eraseAllX, eraseAllY, eraseAllbuttonWidth, eraseAllbuttonHeight);
+  text("Save", SavebuttonX, SavebuttonY, SavebuttonWidth, SavebuttonHeight);
   textFont(lableFont, 15.5);
   text("Rectangle", RectanglebuttonX, RectanglebuttonY, BluebuttonWidth, BluebuttonHeight);
   textFont(lableFont, 20);
   text("Circle", CircleX, CircleY, BluebuttonWidth, BluebuttonHeight);
   textFont(lableFont, 30);
   text("Thickness from least to greatest (Left to Right)", thicknessLableX, thicknessLableY, thicknessLableWidth, thicknessLableHeight);
+    text("Stroke Colour", StrokeLablesX, StrokeLablesY, StrokeLablesWidth, StrokeLablesHeight);
+     text("Pen Colour", PenLablesX, PenLablesY, PenLablesWidth, PenLablesHeight);
   textFont(lableFont, 20);
   text("Image 1", img1X, img1Y, img1Width, img1Height);
   text("Image 2", img2X, img2Y, img2Width, img2Height);
@@ -25,4 +28,5 @@ void Lables() {
   text("Vol down", VolDownX, VolDownY, VolDownWidth, VolDownHeight);
   textFont(lableFont, 60);
   text("X", QuitX, QuitY, QuitWidth, QuitHeight);
+
 }

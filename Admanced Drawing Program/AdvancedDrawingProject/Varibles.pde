@@ -31,7 +31,7 @@ void Varibles() {
     //
   //
   RectangleWidth = RectangleHeight = penbuttonWidth = penbuttonHeight =  eraserbuttonWidth = eraserbuttonHeight = eraseAllbuttonWidth = eraseAllbuttonHeight =  height * 1/20;
-  eraserHeight = eraserbuttonWidth =  CirclePenWidth = CirclePenHeight = RectangleWidth = RectangleHeight = height * 1/20;
+  eraserHeight = eraserbuttonWidth =  CirclePenWidth = CirclePenHeight = RectangleWidth = RectangleHeight = SavebuttonHeight = SavebuttonWidth = height * 1/20;
   //
   //
   
@@ -124,5 +124,17 @@ void Varibles() {
   img2Y = height * 4/5;;
   img2Width = BluebuttonWidth;
   img2Height = img1Width;
+  
+  StrokeLablesX = width * 0 ;
+  StrokeLablesY = height * 4.5/5;
+  StrokeLablesWidth = width * 3.25/10;
+  StrokeLablesHeight = StrokeLablesWidth/15;
+  PenLablesX = width *0;
+  PenLablesY = height * 3.8/5;
+  PenLablesWidth = width * 3.25/10;
+  PenLablesHeight = PenLablesWidth/15;
+
+SavebuttonX =  width * 3.1/5;
+SavebuttonY = height * 4/5;
 
 }

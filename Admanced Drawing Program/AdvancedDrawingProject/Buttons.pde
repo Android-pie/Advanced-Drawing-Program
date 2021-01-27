@@ -42,6 +42,10 @@ void buttons() {
   rect(RectanglebuttonX, RectanglebuttonY, BluebuttonWidth, BluebuttonHeight);
   fill(black);
   rect(CircleX, CircleY, BluebuttonWidth, BluebuttonHeight);
+  fill(LightBlue);
+  stroke(LightBlue);
+  rect(StrokeLablesX, StrokeLablesY, StrokeLablesWidth, StrokeLablesHeight);
+  rect(PenLablesX, PenLablesY, PenLablesWidth, PenLablesHeight);
   
   //Erase All
   fill(black);
@@ -56,6 +60,8 @@ void buttons() {
   rect(img1X, img1Y, img1Width, img1Height);
   fill(black);
   rect(img2X, img2Y, img2Width, img2Height);
+  
+  rect(SavebuttonX, SavebuttonY, SavebuttonWidth, SavebuttonHeight);
   // thickness buttons
  stroke(selection1);
   fill(black);
