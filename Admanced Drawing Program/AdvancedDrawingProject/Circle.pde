@@ -4,5 +4,6 @@ void circlePen() {
     pen = false;
     rectangle = false;
     circle = true;
+    soundEffect[currentSound].play();
   }
 }

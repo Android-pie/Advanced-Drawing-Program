@@ -9,8 +9,11 @@ Minim minim;
 
 int numberOfSongs = 1;
 int currentSong = numberOfSongs - numberOfSongs; 
-AudioPlayer[] song= new AudioPlayer[numberOfSongs]; //"Song One"
-AudioMetaData[] songMetaData = new AudioMetaData[numberOfSongs]; //"Song Meta One"
+int NumOfSounds = 1;
+int currentSound = NumOfSounds - NumOfSounds;
+AudioPlayer[] song= new AudioPlayer[numberOfSongs]; 
+AudioMetaData[] songMetaData = new AudioMetaData[numberOfSongs]; 
+AudioPlayer[] soundEffect = new AudioPlayer[NumOfSounds];
 
 float DrawingSpaceX, DrawingSpaceY, DrawingSpaceWidth, DrawingSpaceHeight; 
 float  penbuttonX, penbuttonY, penbuttonWidth, penbuttonHeight;
@@ -23,6 +26,7 @@ float OrangebuttonX, OrangebuttonY;
 float YellowbuttonX, YellowbuttonY;
 float WhitebuttonX, WhitebuttonY;
 float PurplebuttonX, PurplebuttonY;
+float BluebuttonY2, GreenbuttonY2, RedbuttonY2, WhitebuttonY2, OrangebuttonY2, PurplebuttonY2, YellowbuttonY2; 
 float RectanglebuttonX, RectanglebuttonY;
 float CircleX, CircleY;
 float RectangleWidth, RectangleHeight;
@@ -55,6 +59,7 @@ Boolean eraseAll = false;
 Boolean rectangle = false;
 color black = #000000, PenColour = #FFFFFF, Blue = #59A4E3, White = #FFFFFF, Green = #37C95A, Red = #DB1414, Orange = #FFA51C, Purple = #6E00D1, Yellow = #F0DF61, LightBlue = #BC08A4;
 color selection1 = #000000, selection2 = #000000, selection3 = #000000, selection4 = #000000, selection5 = #000000, selection6 = #000000, selection7 = #000000, selection8 = #000000;
+color StrokeColour = #FFFFFF, ShapeColour =  #000000;
 PImage img1;
 PImage img2;
 PFont lableFont;
@@ -64,7 +69,7 @@ void setup() {
   minim = new Minim(this); 
   songs();
   song[currentSong].play();
-  song[currentSong].loop();
+ song[currentSong].loop();
   Varibles();
   fill(black);
   rect(DrawingSpaceX, DrawingSpaceY, DrawingSpaceWidth, DrawingSpaceHeight);
@@ -87,6 +92,7 @@ void draw() {
   buttons();
   Lables();
   IfStatements();
+  Normal();
 }
 
 void keyPressed() {

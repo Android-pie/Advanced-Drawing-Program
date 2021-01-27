@@ -2,11 +2,13 @@ void vol() {
 if ( key=='=' || key=='+' || mouseX>VolUpX && mouseX<VolUpX + VolUpWidth && mouseY>VolUpY && mouseY<VolUpY+ VolupHeight) { 
     ampvol = 5.0+song[currentSong].getGain();
     song[currentSong].setGain(ampvol);
+     soundEffect[currentSound].play();
 }
 
 if ( key=='-' || key=='_' || mouseX>VolUpX && mouseX<VolDownX + VolDownWidth && mouseY>VolDownY && mouseY<VolDownY+ VolDownHeight) { 
     ampvol = song[currentSong].getGain() - 5.0;
     song[currentSong].setGain(ampvol);
+     soundEffect[currentSound].play();
 }
 
  if ( key=='m' || key=='M' || mouseX>muteX && mouseX<muteX + muteWidth && mouseY>muteY && mouseY<muteY+ muteHeight) {
@@ -15,5 +17,6 @@ if ( key=='-' || key=='_' || mouseX>VolUpX && mouseX<VolDownX + VolDownWidth && 
     } else {
       song[currentSong].mute();
     }
+     soundEffect[currentSound].play();
   }
 }

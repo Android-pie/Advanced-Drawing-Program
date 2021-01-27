@@ -1,3 +1,4 @@
+
 void Lables() {
   stroke(LightBlue);
   fill(LightBlue);
@@ -15,7 +16,7 @@ void Lables() {
   text("Circle", CircleX, CircleY, BluebuttonWidth, BluebuttonHeight);
   textFont(lableFont, 30);
   text("Thickness from least to greatest (Left to Right)", thicknessLableX, thicknessLableY, thicknessLableWidth, thicknessLableHeight);
- textFont(lableFont, 20);
+  textFont(lableFont, 20);
   text("Image 1", img1X, img1Y, img1Width, img1Height);
   text("Image 2", img2X, img2Y, img2Width, img2Height);
   text("Vol Up", VolUpX, VolUpY, VolUpWidth, VolupHeight);

@@ -4,5 +4,7 @@ void pen() {
     eraser = false;
     rectangle = false;
     circle = false;
+    soundEffect[currentSound].play();
+    
   }
 }

@@ -10,6 +10,7 @@ void penThickness() {
     selection6 = black;
     selection7 = black;
     selection8 = black;
+     soundEffect[currentSound].play();
   }
   
   if ( mouseX>thicknessbuttonX2 && mouseX<thicknessbuttonX2 + thicknessbuttonWidth && mouseY>thicknessbuttonY2 && mouseY<thicknessbuttonY2+thicknessbuttonHeight ) {
@@ -23,6 +24,7 @@ void penThickness() {
     selection6 = black;
     selection7 = black;
     selection8 = black;
+     soundEffect[currentSound].play();
   }
   
   if ( mouseX>thicknessbuttonX3 && mouseX<thicknessbuttonX3 + thicknessbuttonWidth && mouseY>thicknessbuttonY3 && mouseY<thicknessbuttonY3+thicknessbuttonHeight ) {
@@ -36,6 +38,7 @@ void penThickness() {
     selection6 = black;
     selection7 = black;
     selection8 = black;
+     soundEffect[currentSound].play();
   }
   
   if ( mouseX>thicknessbuttonX4 && mouseX<thicknessbuttonX4 + thicknessbuttonWidth && mouseY>thicknessbuttonY4 && mouseY<thicknessbuttonY4+thicknessbuttonHeight ) {
@@ -49,6 +52,7 @@ void penThickness() {
     selection6 = black;
     selection7 = black;
     selection8 = black;
+     soundEffect[currentSound].play();
   }
   
   if ( mouseX>thicknessbuttonX5 && mouseX<thicknessbuttonX5 + thicknessbuttonWidth && mouseY>thicknessbuttonY5 && mouseY<thicknessbuttonY5+thicknessbuttonHeight ) {
@@ -62,6 +66,7 @@ void penThickness() {
     selection6 = black;
     selection7 = black;
     selection8 = black;
+     soundEffect[currentSound].play();
   }
   
    if ( mouseX>thicknessbuttonX6 && mouseX<thicknessbuttonX6 + thicknessbuttonWidth && mouseY>thicknessbuttonY6 && mouseY<thicknessbuttonY6+thicknessbuttonHeight ) {
@@ -75,6 +80,7 @@ void penThickness() {
     selection6 = Green;
     selection7 = black;
     selection8 = black;
+     soundEffect[currentSound].play();
   }
   
    if ( mouseX>thicknessbuttonX7 && mouseX<thicknessbuttonX7 + thicknessbuttonWidth && mouseY>thicknessbuttonY7 && mouseY<thicknessbuttonY7+thicknessbuttonHeight ) {
@@ -88,6 +94,7 @@ void penThickness() {
     selection6 = black;
     selection7 = Green;
     selection8 = black;
+     soundEffect[currentSound].play();
   }
   
    if ( mouseX>thicknessbuttonX8 && mouseX<thicknessbuttonX8 + thicknessbuttonWidth && mouseY>thicknessbuttonY8 && mouseY<thicknessbuttonY8+thicknessbuttonHeight ) {
@@ -101,5 +108,6 @@ void penThickness() {
     selection6 = black;
     selection7 = black;
     selection8 = Green;
+     soundEffect[currentSound].play();
   }
 }

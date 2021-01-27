@@ -19,6 +19,24 @@ void buttons() {
   fill(Yellow);
   rect(YellowbuttonX, YellowbuttonY, BluebuttonWidth, BluebuttonHeight);
   
+  
+  ////Stroke Colour
+  
+   fill(Blue);
+  rect(BluebuttonX, BluebuttonY2, BluebuttonWidth, BluebuttonHeight);
+  fill(Green);
+  rect(GreenbuttonX, GreenbuttonY2, BluebuttonWidth, BluebuttonHeight);
+  fill(Red);
+  rect(RedbuttonX, RedbuttonY2, BluebuttonWidth, BluebuttonHeight);
+  fill(White);
+  rect(WhitebuttonX, WhitebuttonY2, BluebuttonWidth, BluebuttonHeight);
+  fill(Orange);
+  rect(OrangebuttonX, OrangebuttonY2, BluebuttonWidth, BluebuttonHeight);
+  fill(Purple);
+  rect(PurplebuttonX, PurplebuttonY2, BluebuttonWidth, BluebuttonHeight);
+  fill(Yellow);
+  rect(YellowbuttonX, YellowbuttonY2, BluebuttonWidth, BluebuttonHeight);
+  
   //Shapes
   fill(black);
   rect(RectanglebuttonX, RectanglebuttonY, BluebuttonWidth, BluebuttonHeight);

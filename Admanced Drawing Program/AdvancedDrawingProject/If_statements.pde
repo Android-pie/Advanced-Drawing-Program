@@ -13,17 +13,15 @@ void IfStatements(){
   }
 
   if ( mousePressed && eraser == false && pen == false && rectangle == true && mouseX> DrawingSpaceX  && mouseX<DrawingSpaceX+ DrawingSpaceWidth && mouseY>DrawingSpaceY && mouseY<DrawingSpaceY+DrawingSpaceHeight) {   
-    fill(PenColour);
-    stroke(PenColour);
+    fill(ShapeColour);
+    stroke(StrokeColour);
     rect(mouseX, mouseY, RectangleWidth, RectangleHeight);
   }
 
   if ( mousePressed && eraser == false && pen == false && rectangle == false && circle == true && mouseX> DrawingSpaceX  && mouseX<DrawingSpaceX+ DrawingSpaceWidth && mouseY>DrawingSpaceY && mouseY<DrawingSpaceY+DrawingSpaceHeight) { 
-    fill(PenColour);
-    stroke(PenColour);
+    fill(ShapeColour);
+    stroke(StrokeColour);
     ellipse(mouseX, mouseY, CirclePenWidth, CirclePenHeight);
   }
-  if (rectangle == true || circle == true) {
-    StrokeColours();
-  }
+  
 }

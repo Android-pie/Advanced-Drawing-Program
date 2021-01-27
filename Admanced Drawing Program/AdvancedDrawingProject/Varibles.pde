@@ -69,8 +69,8 @@ void Varibles() {
   //
   BluebuttonWidth = BluebuttonHeight = penbuttonWidth;
   //
-  thicknessLableX = width * 0.25/5;
-  thicknessLableY = height * 4.25/5;
+  thicknessLableX = width * 1.75/5;
+  thicknessLableY = height * 4.75/5;
   thicknessLableWidth = width * 3.25/10;
   thicknessLableHeight = thicknessLableWidth/15;
   
@@ -82,20 +82,21 @@ void Varibles() {
   //
   ampvol = 10.0;
   
+  BluebuttonY2 = GreenbuttonY2 = RedbuttonY2 = WhitebuttonY2 = OrangebuttonY2 =  PurplebuttonY2 = YellowbuttonY2 = height * 4.15/5;
   
   //
   thickness = width * 1/800;
   thicknessbuttonWidth = width * 1/40;
   thicknessbuttonHeight = thicknessbuttonWidth;
-  thicknessbuttonY1 = thicknessbuttonY2 =thicknessbuttonY3= thicknessbuttonY4=thicknessbuttonY5=thicknessbuttonY6=thicknessbuttonY7=thicknessbuttonY8 = height * 4/5;
-  thicknessbuttonX1 = width * 0.3/5;
-  thicknessbuttonX2 = width * 0.5/5;
-  thicknessbuttonX3 = width * 0.7/5;
-  thicknessbuttonX4 = width * 0.9/5;
-  thicknessbuttonX5 = width * 1.1/5;
-  thicknessbuttonX6 = width * 1.3/5;
-  thicknessbuttonX7 = width * 1.5/5;
-  thicknessbuttonX8 = width * 1.7/5;
+  thicknessbuttonY1 = thicknessbuttonY2 =thicknessbuttonY3= thicknessbuttonY4=thicknessbuttonY5=thicknessbuttonY6=thicknessbuttonY7=thicknessbuttonY8 = height * 4.5/5;
+  thicknessbuttonX1 = width * 1.7/5;
+  thicknessbuttonX2 = width * 1.9/5;
+  thicknessbuttonX3 = width * 2.1/5;
+  thicknessbuttonX4 = width * 2.3/5;
+  thicknessbuttonX5 = width * 2.5/5;
+  thicknessbuttonX6 = width * 2.7/5;
+  thicknessbuttonX7 = width * 2.9/5;
+  thicknessbuttonX8 = width * 3.1/5;
   
   VolUpX = width * 2.9/5;
   VolUpY =  height * 3.5/5;
