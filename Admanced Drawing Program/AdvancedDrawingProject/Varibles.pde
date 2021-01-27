@@ -65,7 +65,7 @@ void Varibles() {
 
   CircleX = width * 2.6/5;
 
-  BluebuttonY = GreenbuttonY =  RedbuttonY = WhitebuttonY = OrangebuttonY = PurplebuttonY = YellowbuttonY =penbuttonY = eraserY = RectanglebuttonY = eraseAllY = CircleY = height * 3.5/5;
+  BluebuttonY = GreenbuttonY =  RedbuttonY = WhitebuttonY = OrangebuttonY = PurplebuttonY = YellowbuttonY =penbuttonY = eraserY = RectanglebuttonY = eraseAllY = CircleY = BlackbuttonY =  height * 3.5/5;
   //
   BluebuttonWidth = BluebuttonHeight = penbuttonWidth;
   //
@@ -136,5 +136,12 @@ void Varibles() {
 
 SavebuttonX =  width * 3.1/5;
 SavebuttonY = height * 4/5;
+
+coverX = width * 0;
+coverY = height * 4.1/5;
+coverWidth = width * 1.5/5;  
+coverHeight = height * 0.75/5;
+
+BlackbuttonX = width * 1.5/5;
 
 }

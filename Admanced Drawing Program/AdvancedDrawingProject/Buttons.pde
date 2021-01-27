@@ -18,6 +18,8 @@ void buttons() {
   rect(PurplebuttonX, PurplebuttonY, BluebuttonWidth, BluebuttonHeight);
   fill(Yellow);
   rect(YellowbuttonX, YellowbuttonY, BluebuttonWidth, BluebuttonHeight);
+   fill(black);
+  rect(BlackbuttonX, BlackbuttonY, BluebuttonWidth, BluebuttonHeight);
   
   
   ////Stroke Colour

@@ -22,6 +22,7 @@ float eraseAllX, eraseAllY, eraseAllbuttonWidth, eraseAllbuttonHeight;
 float BluebuttonX, BluebuttonY, BluebuttonWidth, BluebuttonHeight;
 float GreenbuttonX, GreenbuttonY;
 float RedbuttonX, RedbuttonY;
+float BlackbuttonX, BlackbuttonY;
 float OrangebuttonX, OrangebuttonY;
 float YellowbuttonX, YellowbuttonY;
 float WhitebuttonX, WhitebuttonY;
@@ -55,6 +56,7 @@ float muteX, muteY, muteWidth, muteHeight;
 float StrokeLablesX, StrokeLablesY, StrokeLablesWidth, StrokeLablesHeight;
 float PenLablesX, PenLablesY, PenLablesWidth, PenLablesHeight;
 float SavebuttonX, SavebuttonY, SavebuttonWidth, SavebuttonHeight;
+float coverX, coverY, coverWidth, coverHeight;
 Boolean pen = false;
 Boolean circle = false;
 Boolean eraser = false;
@@ -96,6 +98,7 @@ void draw() {
   Lables();
   IfStatements();
   Normal();
+  cover();
 }
 
 void keyPressed() {
@@ -114,7 +117,7 @@ void mousePressed() {
   Quit();
   StrokeColours();
   vol();  
-  redo();
+//  redo();
   Save();
   println("eraser", eraser, "pen", pen, "rectangle", rectangle);
 }

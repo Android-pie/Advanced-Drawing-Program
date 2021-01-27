@@ -48,4 +48,10 @@ void PenColours() {
     soundEffect[currentSound].play();
     
   }
+  
+  if ( mouseX>BlackbuttonX && mouseX<BlackbuttonX + BluebuttonWidth && mouseY>BlackbuttonY && mouseY<BlackbuttonY+BluebuttonHeight ) {
+    PenColour = black;
+    ShapeColour = black;
+    soundEffect[currentSound].play();
+  }
 }
